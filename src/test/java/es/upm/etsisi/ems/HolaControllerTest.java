@@ -26,7 +26,7 @@ public class HolaControllerTest {
 
     @Before
     public void setupMockMvc() {
-	mockMvc = MockMvcBuilders.webAppContextSetup(webContext).buld();
+	mockMvc = MockMvcBuilders.webAppContextSetup(webContext).build();
     }
 
     @Test
